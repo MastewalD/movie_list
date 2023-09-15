@@ -1,0 +1,67 @@
+.header{
+  height: 50px;
+  width: 100%;
+  background-color: rgb(83, 83, 83);
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  color: green;
+  font-weight: bold;
+}
+.icon{
+  height: 35px;
+  width: 35px;
+  background-color: rgb(38, 39, 38);
+  display: flex;
+  flex-direction: row;
+  column-gap: 2px;
+  color: white;
+  font-weight: bolder;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  height: 15px;
+  width: 15px;
+  background-color: green;
+}
+.movie{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+  
+}
+.addmovies{
+  height: 400px;
+  width: 500px;
+  border: 1px whitesmoke solid ;
+  border-radius: 5px;
+  box-shadow:  0 2px 4px rgba(0, 0, 0, 0.2); 
+  
+}
+
+.displaymovies{
+  height: 400px;
+  width: 500px;
+  border: 1px whitesmoke solid ;
+  border-radius: 5px;
+  box-shadow:  0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aqua;
+  height: 100%;
+}
+.button{
+  background-color: green;
+  border: 1px whitesmoke;
+}
