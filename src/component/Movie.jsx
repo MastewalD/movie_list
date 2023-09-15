@@ -1,12 +1,13 @@
-import React from 'react'
+import React,{useState} from 'react'
 import AddMovie from './AddMovie'
 import DisplayMovies from './DisplayMovies'
 import "../App.css"
 function Movie() {
+  const [data,setData]=useState([])
   return (
     <div className='movie'>
-      <AddMovie/>
-      <DisplayMovies/>
+      <AddMovie  setData={setData}/>
+      <DisplayMovies data={data}/>
     </div>
   )
 }

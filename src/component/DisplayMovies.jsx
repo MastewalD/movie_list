@@ -1,9 +1,10 @@
 import React from 'react'
 import "../App.css"
-function DisplayMovies() {
+function DisplayMovies(props) {
+    const {data}=props
   return (
     <div className='displaymovies'>
-      
+      {data}
     </div>
   )
 }
